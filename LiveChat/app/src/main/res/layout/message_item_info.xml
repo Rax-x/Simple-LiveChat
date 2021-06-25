@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/info_text"
+        tools:text="Info message"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

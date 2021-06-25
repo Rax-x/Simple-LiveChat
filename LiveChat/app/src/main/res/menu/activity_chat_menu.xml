@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Create Room"
+        android:id="@+id/create_new_room"/>
+
+    <item
+        android:title="Join  Room"
+        android:id="@+id/join_room"/>
+
+    <item
+        android:enabled="false"
+        android:title="Leave room"
+        android:id="@+id/leave_room"/>
+</menu>
